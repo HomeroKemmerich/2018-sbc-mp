@@ -9,7 +9,6 @@ coord_1 = list(map(lambda x : int(x), coord_1))
 coord_2 = list(map(lambda x : int(x), coord_2))
 
 def get_quadr(coord: list):
-    print(coord)
     half = int(length / 2)
 
     if coord[0] <  half:
@@ -23,9 +22,6 @@ def get_quadr(coord: list):
 
 quadr1 = get_quadr(coord_1)
 quadr2 = get_quadr(coord_2)
-
-print(quadr1)
-print(quadr2)
 
 if quadr1 == quadr2:
     print('N')
