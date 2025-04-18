@@ -24,9 +24,6 @@ def get_quadr(coord: list):
 quadr1 = get_quadr(coord_1)
 quadr2 = get_quadr(coord_2)
 
-print(quadr1)
-print(quadr2)
-
 if quadr1 == quadr2:
     print('N')
 else:
