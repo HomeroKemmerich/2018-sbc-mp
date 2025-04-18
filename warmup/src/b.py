@@ -1,5 +1,5 @@
 """
-time: 01:00:00
+time@2025-04-18: 01:05:36
 """
 length = int(input())
 coord_1 = input().split(' ')
